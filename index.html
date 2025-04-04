@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaden Yeung Portfolio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      background: #fff;
+      color: #111;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #000;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .project, .collab {
+      border: 1px solid #eee;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+
+    .project a, .collab a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      color: #0070f3;
+    }
+
+    .project a:hover, .collab a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin: 0 0.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>KY</strong></div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#collaborations">Collaborations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h1>Kaden Yeung</h1>
+  <h2>Blockchain Developer & Technical Writer</h2>
+  <p>17-year-old developer building decentralized solutions and documenting technical processes. Focused on creating cool stuff, more to come...</p>
+  <p>I love cinema, my favourite movie is the "Chungking Express". Welcome to connect with me and share some thoughts, cinemaphiles!</p>
+  <p>I dream to travel around the world one day. My last travel location was Da Nang, it was a beautiful city...</p>
+</section>
+
+<section id="work">
+  <h2>Current Focus</h2>
+  <p><strong>Spotify Clone Development:</strong> Building full-stack music platform with Next.js 13, TypeScript, and Stripe integration</p>
+  <p><strong>ERC-20 Framework:</strong> Creating modular system for simplified token deployment</p>
+</section>
+
+<section id="projects">
+  <h2>Featured Projects</h2>
+
+  <div class="project">
+    <h3>Spotify Clone</h3>
+    <p>Full-stack music streaming platform with premium subscription features</p>
+    <p><em>Next.js 13 · React · Stripe</em></p>
+    <a href="#">Live Demo</a>
+  </div>
+
+  <div class="project">
+    <h3>ERC-20 Deployment System</h3>
+    <p>Step-by-step framework for creating custom cryptocurrencies</p>
+    <p><em>Solidity · Ethereum</em></p>
+    <a href="#">Read Case Study</a>
+  </div>
+
+  <div class="project">
+    <h3>Figma UI Kit</h3>
+    <p>Kittens and naps! I made a meditation app UI, combining cute kitten graphics with sleep & meditation tools.</p>
+    <p><em>Figma · UI Design · Design Systems</em></p>
+    <a href="#">Live Demo</a>
+  </div>
+</section>
+
+<section id="collaborations">
+  <h2>Collaborations</h2>
+
+  <div class="collab">
+    <h3>IKEA Digital Innovation</h3>
+    <p>Developed customer experience solutions. Aims to promote brand image by strengthening connection with Gen Z.</p>
+    <a href="#">View Details →</a>
+  </div>
+
+  <div class="collab">
+    <h3>Samsung</h3>
+    <p>Bridging the Digital Divide in India with Samsung's Voice-First AI. Aims to connect Bottom Billions with government schemes and grants.</p>
+    <a href="#">View Details →</a>
+  </div>
+
+  <div class="collab">
+    <h3>TKS Innovate Program</h3>
+    <p>Emerging technology accelerator program</p>
+    <a href="#">View Program Details →</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Find Me At...</h2>
+  <p><strong>Email:</strong> 128kaden@gmail.com</p>
+  <p><strong>LinkedIn:</strong> <a href="#">Connect with me!</a></p>
+  <p><strong>Medium:</strong> <a href="#">Read my Writings</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Kaden Yeung — Built with 💻
+</footer>
+
+</body>
+</html>
